@@ -1,3 +1,5 @@
+$hairline: 1px solid #eee;
+$bottom-m-space: 1em;
 .module__container{
 	width:100%;
 }
@@ -10,13 +12,17 @@
 .module__container--inside{
 	padding:30px;
 }
+.module-header3{
+	border-bottom:$hairline;
+	padding-bottom:$bottom-m-space;
+}
 .module__upcoming-clases--container{
 	list-style:none;
 	text-align:center;
 }
 .upcoming-clases--item{
 	line-height:65px;
-	border-top:1px solid gray;
+	border-bottom:1px solid #eee;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-size:13px;
