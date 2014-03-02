@@ -146,6 +146,44 @@
 	float: left;
 }
 
+.article__container--left{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+
+.article__container--right{
+    width: 65%;
+    position: relative;
+    float: right;
+}
+
+.article__container--profile{
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+}
+
+.article__container--profile__coach{
+    wdith: 90%;
+    margin-bottom: 10px;
+}
+
+.article__container--profile__img{
+    position: relative;
+    float: left;
+}
+
+.article__container--profile__info{
+    width: 75%;
+    position: relative;
+    float: right;
+}
+
+.article__container--clear{
+    clear: both;
+}
+
 .row__gallery{
 	position: relative;
 	margin-top: 100px;

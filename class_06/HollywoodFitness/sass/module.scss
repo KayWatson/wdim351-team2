@@ -1,6 +1,7 @@
 //variables//
 $hairline: 1px solid #eee;
 $bottom-m-space: 1em;
+$bottom-s-space: 0.15em;
 $paragraph-leading: 1.5em;
 //end variables//
 
@@ -19,6 +20,9 @@ $paragraph-leading: 1.5em;
 .module-header3{
 	border-bottom:$hairline;
 	padding-bottom:$bottom-m-space;
+}
+.module-header4{
+    padding-bottom: $bottom-s-space;
 }
 .module__upcoming-clases--container{
 	list-style:none;
