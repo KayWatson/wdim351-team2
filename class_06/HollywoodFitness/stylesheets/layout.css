@@ -165,3 +165,18 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* line 129, ../sass/layout.scss */
+.blog__container {
+  margin-top: 100px;
+  padding: 0 40px;
+  display: block;
+}
+
+/* line 135, ../sass/layout.scss */
+.article__container--top {
+  width: 70%;
+  padding-right: 30px;
+  position: relative;
+  float: left;
+}

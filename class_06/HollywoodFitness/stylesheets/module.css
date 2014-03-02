@@ -1,33 +1,33 @@
-/* line 3, ../sass/module.scss */
+/* line 7, ../sass/module.scss */
 .module__container {
   width: 100%;
 }
 
-/* line 6, ../sass/module.scss */
+/* line 10, ../sass/module.scss */
 .module__container--left {
   margin-top: -50px;
   width: 33.33333%;
   float: left;
 }
 
-/* line 12, ../sass/module.scss */
+/* line 16, ../sass/module.scss */
 .module__container--inside {
   padding: 30px;
 }
 
-/* line 15, ../sass/module.scss */
+/* line 19, ../sass/module.scss */
 .module-header3 {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 1em;
 }
 
-/* line 19, ../sass/module.scss */
+/* line 23, ../sass/module.scss */
 .module__upcoming-clases--container {
   list-style: none;
   text-align: center;
 }
 
-/* line 23, ../sass/module.scss */
+/* line 27, ../sass/module.scss */
 .upcoming-clases--item {
   line-height: 65px;
   border-bottom: 1px solid #eee;
@@ -36,7 +36,7 @@
   font-size: 13px;
 }
 
-/* line 30, ../sass/module.scss */
+/* line 34, ../sass/module.scss */
 .module__container--center {
   width: 33.33333%;
   float: left;
@@ -44,23 +44,31 @@
   margin-top: -50px;
 }
 
-/* line 36, ../sass/module.scss */
+/* line 40, ../sass/module.scss */
 .module__container--right {
   width: 33.33333%;
   float: left;
   margin-top: -50px;
 }
 
-/* line 43, ../sass/module.scss */
+/* line 48, ../sass/module.scss */
 .module--paragraph {
-  line-height: 20px;
+  line-height: 1.5em;
 }
 
-/* line 46, ../sass/module.scss */
+/* line 52, ../sass/module.scss */
 .big-button--why-join {
   float: right;
   background-color: gray;
   padding: 8px 15px;
   font-size: 20px;
   border: none;
+}
+
+/* line 60, ../sass/module.scss */
+.module__sidebar {
+  width: 20%;
+  display: relative;
+  float: left;
+  padding: 0 25px;
 }

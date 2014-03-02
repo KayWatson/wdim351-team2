@@ -1,5 +1,9 @@
+//variables//
 $hairline: 1px solid #eee;
 $bottom-m-space: 1em;
+$paragraph-leading: 1.5em;
+//end variables//
+
 .module__container{
 	width:100%;
 }
@@ -40,14 +44,22 @@ $bottom-m-space: 1em;
 }
 .module__why-join--container{
 }
+
 .module--paragraph{
-	line-height:20px;
+	line-height: $paragraph-leading;
 }
+
 .big-button--why-join{
 	float:right;
 	background-color:gray;
 	padding:8px 15px;
 	font-size:20px;
 	border:none;
+}
 
+.module__sidebar{
+	width: 20%;
+	display: relative;
+	float: left;
+	padding: 0 25px;
 }

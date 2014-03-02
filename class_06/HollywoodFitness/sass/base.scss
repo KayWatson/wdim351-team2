@@ -1,4 +1,13 @@
+//variables//
 $main-gray: #747379;
+
+//end variables//
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
 .globalwidth{
 	padding:0px;
 	margin:0px;
@@ -24,4 +33,9 @@ $main-gray: #747379;
 	overflow: hidden;
 	margin: 0 auto;
 	top: -109px;
+}
+
+#clear{
+	display: block;
+	clear: both;
 }
