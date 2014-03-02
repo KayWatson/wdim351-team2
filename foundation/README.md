@@ -1,4 +1,0 @@
-rapiddev
-========
-
-Rapid Web Dev 
