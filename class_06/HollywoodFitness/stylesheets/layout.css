@@ -167,13 +167,22 @@
 }
 
 /* line 129, ../sass/layout.scss */
-.blog__container {
+.container {
   margin-top: 100px;
-  padding: 0 40px;
   display: block;
 }
 
-/* line 135, ../sass/layout.scss */
+/* line 134, ../sass/layout.scss */
+.container__blog {
+  padding: 0 40px;
+}
+
+/* line 138, ../sass/layout.scss */
+.container__training {
+  padding: 0 50px;
+}
+
+/* line 142, ../sass/layout.scss */
 .article__container--top {
   width: 70%;
   padding-right: 30px;
@@ -181,7 +190,7 @@
   float: left;
 }
 
-/* line 142, ../sass/layout.scss */
+/* line 149, ../sass/layout.scss */
 .row__gallery {
   position: relative;
   margin-top: 100px;
