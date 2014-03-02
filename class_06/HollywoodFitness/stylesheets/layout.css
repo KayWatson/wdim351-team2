@@ -180,3 +180,9 @@
   position: relative;
   float: left;
 }
+
+/* line 142, ../sass/layout.scss */
+.row__gallery {
+  position: relative;
+  margin-top: 100px;
+}

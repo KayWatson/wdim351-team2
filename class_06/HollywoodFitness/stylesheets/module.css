@@ -72,3 +72,23 @@
   float: left;
   padding: 0 25px;
 }
+
+/* line 67, ../sass/module.scss */
+.sidebar__category {
+  margin-bottom: 50px;
+}
+
+/* line 71, ../sass/module.scss */
+.article__gallery {
+  float: left;
+  margin: 0 2.5% 1em 0;
+  width: 22.5%;
+}
+/* line 75, ../sass/module.scss */
+.article__gallery:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 78, ../sass/module.scss */
+.article__gallery:nth-child(4n+1) {
+  clear: left;
+}

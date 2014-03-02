@@ -63,3 +63,19 @@ $paragraph-leading: 1.5em;
 	float: left;
 	padding: 0 25px;
 }
+
+.sidebar__category{
+	margin-bottom: 50px;
+}
+
+.article__gallery{ 
+	float: left; 
+	margin: 0 2.5% 1em 0; 
+	width: 22.5%;
+	&:nth-child(4n){ 
+		margin-right: 0; 
+	}
+	&:nth-child(4n+1){ 
+		clear: left; 
+	}
+}
