@@ -145,12 +145,13 @@
 
 .container__contact__form{
     display: relative;
-    padding: 0 25px;
+    padding: 20px 25px;
 }
 
 .container__contact__form--left{
     float: left;
     width: 45%;
+    display: block;
 }
 
 .container__contact__form--right{
@@ -206,4 +207,9 @@
 .row__gallery{
 	position: relative;
 	margin-top: 100px;
+}
+
+.field__line{
+    display: block;
+    margin-bottom: 30px;
 }
