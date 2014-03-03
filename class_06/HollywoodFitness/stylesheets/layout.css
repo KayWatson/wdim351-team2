@@ -183,6 +183,29 @@
 }
 
 /* line 142, ../sass/layout.scss */
+.container__contact {
+  padding: 0 75px;
+}
+
+/* line 146, ../sass/layout.scss */
+.container__contact__form {
+  display: relative;
+  padding: 0 25px;
+}
+
+/* line 151, ../sass/layout.scss */
+.container__contact__form--left {
+  float: left;
+  width: 45%;
+}
+
+/* line 156, ../sass/layout.scss */
+.container__contact__form--right {
+  float: right;
+  width: 55%;
+}
+
+/* line 161, ../sass/layout.scss */
 .article__container--top {
   width: 70%;
   padding-right: 30px;
@@ -190,52 +213,52 @@
   float: left;
 }
 
-/* line 149, ../sass/layout.scss */
+/* line 168, ../sass/layout.scss */
 .article__container--left {
   width: 30%;
   position: relative;
   float: left;
 }
 
-/* line 155, ../sass/layout.scss */
+/* line 174, ../sass/layout.scss */
 .article__container--right {
   width: 65%;
   position: relative;
   float: right;
 }
 
-/* line 161, ../sass/layout.scss */
+/* line 180, ../sass/layout.scss */
 .article__container--profile {
   width: 100%;
   position: relative;
   margin-top: 25px;
 }
 
-/* line 167, ../sass/layout.scss */
+/* line 186, ../sass/layout.scss */
 .article__container--profile__coach {
   wdith: 90%;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
 }
 
-/* line 172, ../sass/layout.scss */
+/* line 191, ../sass/layout.scss */
 .article__container--profile__img {
   position: relative;
   float: left;
 }
 
-/* line 177, ../sass/layout.scss */
+/* line 196, ../sass/layout.scss */
 .article__container--profile__info {
   width: 75%;
   position: relative;
   float: right;
 }
 
-/* line 183, ../sass/layout.scss */
+/* line 202, ../sass/layout.scss */
 .article__container--clear {
   clear: both;
 }
 
-/* line 187, ../sass/layout.scss */
+/* line 206, ../sass/layout.scss */
 .row__gallery {
   position: relative;
   margin-top: 100px;
