@@ -1,0 +1,53 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 27, ../scss/screen.scss */
+.module__sidebar {
+  padding: 80px 20px 0 20px;
+}
+
+/* line 31, ../scss/screen.scss */
+.module-header6 {
+  font-size: .8em;
+  margin: -10px 0;
+  color: #969696;
+  font-style: italic;
+}
+
+/* line 38, ../scss/screen.scss */
+.blog__container {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+/* line 45, ../scss/screen.scss */
+.blog__content {
+  padding: 0 70px 0 20px;
+}
+
+/* line 50, ../scss/screen.scss */
+.article__content .article__image {
+  padding: 30px 0;
+}
+
+/* line 56, ../scss/screen.scss */
+.module__sidebar .article__image {
+  padding: 30px 0 5px 0;
+}
+
+/* line 61, ../scss/screen.scss */
+.side-nav {
+  padding: 0;
+  margin: 0;
+}
+/* line 65, ../scss/screen.scss */
+.side-nav hr {
+  margin: 3px;
+}
+/* line 69, ../scss/screen.scss */
+.side-nav li {
+  padding-left: 10px;
+  list-style-type: circle;
+}

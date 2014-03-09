@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hollywood Fitness</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -43,10 +48,10 @@
 	  <!-- Main Page Content -->
   	<div class="row">
     <!-- Main Blog Content -->
-	    <div class="blog__container" role="content">	 
-	      <article>
+	    <div class="blog__container clearfix" role="content">	 
+	      <article class="medium-9 columns blog__content">
 	        <h3 class="module-header3"><a href="#">Blog Post Title</a></h3>
-	        <h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+	        <h6 class="module-header6">Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
 	        <div class="article__container--top">
 	          <div class="article__content">
 	          	<div class="article__image">
@@ -54,19 +59,19 @@
 	          	</div>
 	            <p class="module--paragraph">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
 	            <p class="module--paragraph">Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-	          </div>
+	          </div><hr>
 	          <div class="article__content">
 	          	<h3 class="module-header3"><a href="#">Blog Post Title</a></h3>
-	        	<h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+	        	<h6 class="module-header6">Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
 	          	<div class="article__image">
 	            	<img src="http://placehold.it/650x300&text=[img]" />
 	          	</div>
 	            <p class="module--paragraph">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
 	            <p class="module--paragraph">Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-	          </div>
+	          </div><hr>
 	          <div class="article__content">
 	          	<h3 class="module-header3"><a href="#">Blog Post Title</a></h3>
-	        	<h6>Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
+	        	<h6 class="module-header6">Written by <a href="#">John Smith</a> on August 12, 2012.</h6>
 	          	<div class="article__image">
 	            	<img src="http://placehold.it/650x300&text=[img]" />
 	          	</div>
@@ -76,14 +81,14 @@
 		    </div>
 		  </article>		  
 	    	<!-- Sidebar -->
-			<aside class="module__sidebar">
-				<div class="sidebar__category">
+			<aside class="module__sidebar medium-3 columns">
+				<div class="sidebar__category panel">
 					<h5>Categories</h5>
 					<ul class="side-nav">
-						<li><a href="#">News</a></li>
-						<li><a href="#">Code</a></li>
-						<li><a href="#">Design</a></li>
-						<li><a href="#">Fun</a></li>
+						<li><a href="#">News</a></li><hr>
+						<li><a href="#">Code</a></li><hr>
+						<li><a href="#">Design</a></li><hr>
+						<li><a href="#">Fun</a></li><hr>
 						<li><a href="#">Weasels</a></li>
 					</ul>
 				</div>		
