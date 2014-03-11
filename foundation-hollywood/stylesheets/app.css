@@ -5530,16 +5530,6 @@ kbd {
   width: 100px;
   z-index: 10;
 }
-/* line 277, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
-.orbit-container .orbit-timer .orbit-progress {
-  height: 3px;
-  background-color: rgba(255, 255, 255, 0.3);
-  display: block;
-  width: 0%;
-  position: relative;
-  right: 20px;
-  top: 5px;
-}
 /* line 290, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer > span {
   display: none;
@@ -9488,20 +9478,27 @@ th.hide-for-touch {
 /* line 97, ../scss/_screen.scss */
 .sidebar__header {
   color: #ce0d0e;
+  font-size: 1.5em;
+  line-height: 1.8em;
 }
 
-/* line 101, ../scss/_screen.scss */
+/* line 103, ../scss/_screen.scss */
 .trainer__content {
-  padding: 80px 10px 0 10px;
+  padding: 80px 10px 0 70px;
 }
 
-/* line 105, ../scss/_screen.scss */
+/* line 107, ../scss/_screen.scss */
 .trainer__profile {
   margin-top: 20px;
   padding-top: 20px;
 }
 
-/* line 111, ../scss/_screen.scss */
+/* line 112, ../scss/_screen.scss */
+.trainer__profile--text {
+  padding-left: 70px;
+}
+
+/* line 117, ../scss/_screen.scss */
 .content--trainer-reasons div {
   padding: 20px 20px 0 20px;
 }
