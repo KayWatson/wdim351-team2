@@ -7,6 +7,7 @@
 @import "compass/css3/border-radius";
 
 //variables//
+$primary-color: #ce0d0e;
 $light-grey: #DBDBDB;
 $medium-grey: #969696;
 //end variables//
@@ -92,3 +93,25 @@ $medium-grey: #969696;
 }
 //End blog & gallery specific//
 
+//Personal Training specific//
+.sidebar__header{
+    color: $primary-color;
+}
+
+.trainer__content{
+    padding: 80px 10px 0 10px;
+}
+
+.trainer__profile{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.content--trainer-reasons{
+    div{
+        padding: 20px 20px 0 20px;
+    }
+}
+//End Personal Training specific//
+
+//Contact Specific//

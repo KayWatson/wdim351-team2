@@ -5374,7 +5374,7 @@ kbd {
   overflow: hidden;
   width: 100%;
   position: relative;
-  background: none;
+  background: #969696;
 }
 /* line 132, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-slides-container {
@@ -5659,7 +5659,7 @@ kbd {
 }
 /* line 395, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-bullets li.active {
-  background: #999999;
+  background: #ce0d0e;
 }
 /* line 399, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-bullets li:last-child {
