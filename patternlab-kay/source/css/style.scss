@@ -53,7 +53,9 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * TOC To Be Continued
  */
 
-
+h2 {
+    color: red;
+}
 
 @import "scss/generic/variables";
 @import "scss/generic/mixins";
@@ -118,4 +120,3 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/objects/sections";
 @import "scss/objects/article";
 @import "scss/objects/comments";
-
