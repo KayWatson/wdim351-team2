@@ -53,9 +53,22 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * TOC To Be Continued
  */
 
-h2 {
-    color: red;
-}
+
+/*------------------------------------*\
+    $CUSTOM ELEMENTS
+\*------------------------------------*/
+
+@import "custom/base/global-classes";
+@import "custom/base/headings";
+@import "custom/base/links";
+@import "custom/base/text";
+
+//google font//
+//@include web-font((Gafata, Revalia));
+//this doesn't work here
+
+
+//END
 
 @import "scss/generic/variables";
 @import "scss/generic/mixins";
