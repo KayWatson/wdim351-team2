@@ -63,8 +63,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "custom/base/links";
 @import "custom/base/text";
 
+@import "custom/generic/mixins";
+@import "custom/generic/variables";
+
 //google font//
-//@include web-font((Gafata, Revalia));
+@include web-font((Gafata, Revalia));
 //this doesn't work here
 
 
