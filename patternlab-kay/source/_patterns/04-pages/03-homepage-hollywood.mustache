@@ -1,0 +1,39 @@
+<div class="page" id="page">
+	{{# emergency }}
+		<div style="width: 100%; height: 30px; background-color: #ccc; padding: 20px; color: #fff; font-size: 3em;">
+			Emergency!!!
+		</div>
+	{{/ emergency }}
+	{{> organisms-header-hollywood }}
+	<div role="main">
+		
+		{{# hero }}
+			{{> molecules-block-hollywood }}
+		{{/ hero}}
+
+		<br>
+
+		<div class="g g-3up">
+			<div class="gi">
+				<section class="section latest-posts">
+					<h2 class="section-title">Upcoming Classes:</h2><hr>
+					<br>
+					<ul class="post-list">
+
+						{{# latest-posts}}
+							<li>{{> molecules-upcoming-class-block }}</li>
+						{{/ latest-posts}}
+					</ul>
+					<a href="#" class="text-btn">View more classes</a>
+				</section>
+			</div>
+			<div class="gi">
+				{{> molecules-block-middle-panel}}
+			</div>
+
+			<div class="gi">
+				{{> organisms-why-join }}
+			</div><!--end l-sidebar-->
+	</div><!--End role=main-->
+	{{> organisms-hollywood-footer }}
+</div>
