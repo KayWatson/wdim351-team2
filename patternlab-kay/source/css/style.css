@@ -1,5 +1,5 @@
 /*
-Syntax error: File to import not found or unreadable: custome/generic/forms.
+Syntax error: File to import not found or unreadable: custome/base/forms.
               Load path: /Users/morgan/Documents/aip/wdim351/team2/wdim351-team2/patternlab-kay/source/css (DEPRECATED)
         on line 63 of style.scss
 
@@ -8,7 +8,7 @@ Syntax error: File to import not found or unreadable: custome/generic/forms.
 60: @import "custom/generic/variables";
 61: @import "custom/generic/mixins";
 62: 
-63: @import "custome/generic/forms";
+63: @import "custome/base/forms";
 64: @import "custom/base/global-classes";
 65: @import "custom/base/headings";
 66: @import "custom/base/links";
@@ -59,4 +59,4 @@ style.scss:63
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: custome/generic/forms.\A               Load path: /Users/morgan/Documents/aip/wdim351/team2/wdim351-team2/patternlab-kay/source/css (DEPRECATED)\A         on line 63 of style.scss\A \A 58:     $CUSTOM ELEMENTS\A 59: \*------------------------------------*/\A 60: @import \"custom/generic/variables\";\A 61: @import \"custom/generic/mixins\";\A 62: \A 63: @import \"custome/generic/forms\";\A 64: @import \"custom/base/global-classes\";\A 65: @import \"custom/base/headings\";\A 66: @import \"custom/base/links\";\A 67: @import \"custom/base/text\";\A 68: @import \"custom/molecules/blocks\";"; }
+  content: "Syntax error: File to import not found or unreadable: custome/base/forms.\A               Load path: /Users/morgan/Documents/aip/wdim351/team2/wdim351-team2/patternlab-kay/source/css (DEPRECATED)\A         on line 63 of style.scss\A \A 58:     $CUSTOM ELEMENTS\A 59: \*------------------------------------*/\A 60: @import \"custom/generic/variables\";\A 61: @import \"custom/generic/mixins\";\A 62: \A 63: @import \"custome/base/forms\";\A 64: @import \"custom/base/global-classes\";\A 65: @import \"custom/base/headings\";\A 66: @import \"custom/base/links\";\A 67: @import \"custom/base/text\";\A 68: @import \"custom/molecules/blocks\";"; }
