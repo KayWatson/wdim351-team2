@@ -57,18 +57,19 @@ button, .button {
 	padding: 1.25rem;
 	background-color: $lightest-grey;
 }
-*/
+
 .header-hollywood{
-	background: #000;
+	background: $header-color;
 }
 
 #nav li a{
 	color:$light-gray;
-}
-#nav li a:hover{
+&:hover{
 	color:$primary-color;
 }
+
 .upcoming-class{width: 100%; text-align: center;}
+
 .upcoming-class p{
 	box-sizing: border-box;
 	color: rgb(206, 13, 14);
@@ -84,7 +85,7 @@ button, .button {
 	width: auto;
 	text-align: center;
 }
-
+*/
 .copyright{
 	width: 50%;
 	float: left;
@@ -93,8 +94,8 @@ button, .button {
 	font-size: 1rem;
 	line-height: 1.6;
 	margin-bottom: 1.25rem;
-	text-rendering: optimizeLegibility;
 }
+
 .footer {
 	background: transparent;
 	color: #222;

@@ -94,6 +94,14 @@ button, .button {
 a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
   font-family: "Gafata", sans-serif; }
 
+#nav li a {
+  color: #dbdbdb; }
+  #nav li a:hover {
+    color: #ce0d0e; }
+
+.upcoming-class p {
+  color: #ce0d0e; }
+
 .panel {
   font-family: "Gafata", sans-serif;
   border-style: solid;
@@ -102,6 +110,13 @@ a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, b
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background-color: #f2f2f2; }
+
+.header-hollywood {
+  background-color: black; }
+
+.upcoming-class {
+  width: 100%;
+  text-align: center; }
 
 /*------------------------------------*\
     $VARIABLES
@@ -432,7 +447,7 @@ td {
     $LAYOUT
 \*------------------------------------*/
 /* Layout Container */
-.lc, .header, [role=main] {
+.lc, .header-hollywood, [role=main] {
   max-width: 72em;
   margin: 0 auto;
   padding: 0.5em; }
@@ -598,8 +613,8 @@ td {
 /*------------------------------------*\
     $PAGE STRUCTURE
 \*------------------------------------*/
-.header {
-  background: white;
+.header-hollywood {
+  background: black;
   padding: 0;
   border-bottom: 1px solid #dbdbdb; }
 
@@ -1199,35 +1214,35 @@ button, .button {
 	padding: 1.25rem;
 	background-color: $lightest-grey;
 }
+
+.header-hollywood{
+	background: $header-color;
+}
+
+#nav li a{
+	color:$light-gray;
+&:hover{
+	color:$primary-color;
+}
+
+.upcoming-class{width: 100%; text-align: center;}
+
+.upcoming-class p{
+	box-sizing: border-box;
+	color: rgb(206, 13, 14);
+	cursor: auto;
+	display: inline;
+	font-family: Gafata, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	line-height: 25.200000762939453px;
+	text-decoration: none solid rgb(206, 13, 14);
+	width: auto;
+	text-align: center;
+}
 */
-.header-hollywood {
-  background: #000; }
-
-#nav li a {
-  color: #dbdbdb; }
-
-#nav li a:hover {
-  color: #ce0d0e; }
-
-.upcoming-class {
-  width: 100%;
-  text-align: center; }
-
-.upcoming-class p {
-  box-sizing: border-box;
-  color: #ce0d0e;
-  cursor: auto;
-  display: inline;
-  font-family: Gafata, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
-  height: auto;
-  line-height: 25.200000762939453px;
-  text-decoration: none solid #ce0d0e;
-  width: auto;
-  text-align: center; }
-
 .copyright {
   width: 50%;
   float: left;
@@ -1235,8 +1250,7 @@ button, .button {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility; }
+  margin-bottom: 1.25rem; }
 
 .footer {
   background: transparent;
