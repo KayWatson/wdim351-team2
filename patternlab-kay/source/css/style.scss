@@ -57,29 +57,18 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     $CUSTOM ELEMENTS
 \*------------------------------------*/
+@import "custom/generic/variables";
+@import "custom/generic/mixins";
 
 @import "custom/base/global-classes";
 @import "custom/base/headings";
 @import "custom/base/links";
 @import "custom/base/text";
-
-@import "custom/generic/mixins";
-@import "custom/generic/variables";
-
-//google font//
-@include web-font((Gafata, Revalia));
-//this doesn't work here
-
-
-//END
+@import "custom/molecules/blocks";
 
 @import "scss/generic/variables";
 @import "scss/generic/mixins";
 @import "scss/generic/reset";
-
-
-
-
 
 /*------------------------------------*\
     $GLOBAL ELEMENTS

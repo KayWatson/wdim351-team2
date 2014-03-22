@@ -1,10 +1,10 @@
-//variables//
+@import "../../custom/generic/variables";
+
+/*
 $primary-color: #ce0d0e;
 $light-gray: #DBDBDB;
 $medium-gray: #969696;
-//end variables//
 
-//base styles//
 .clearfix{
     @mixin pie-clearfix {
   	&:after {
@@ -17,7 +17,6 @@ $medium-gray: #969696;
 }
 a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button{
 	font-family: "Gafata", sans-serif;
-
 }
 button, .button {
 	border-style: solid;
@@ -50,15 +49,15 @@ button, .button {
 	display: inline-block;
 }
 .panel {
-	font-family: "Gafata", sans-serif;
+	font-family: $sans-serif;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #d8d8d8;
+	border-color: $light-gray;
 	margin-bottom: 1.25rem;
 	padding: 1.25rem;
-	background: #f2f2f2;
+	background-color: $lightest-grey;
 }
-
+*/
 .header-hollywood{
 	background: #000;
 }

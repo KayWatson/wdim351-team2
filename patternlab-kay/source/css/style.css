@@ -62,7 +62,47 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * but it still has not been merged, due to lack of minor comments.
  * That was five months ago.
  */
-@import url(http://fonts.googleapis.com/css?family=Gafata|Revalia);
+button, .button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Gafata", sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #ce0d0e;
+  border-color: #ce0d0e;
+  color: white;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
+  button:hover, .button:hover {
+    background-color: #9c090a;
+    color: white; }
+
+a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
+  font-family: "Gafata", sans-serif; }
+
+.panel {
+  font-family: "Gafata", sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dbdbdb;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background-color: #f2f2f2; }
+
 /*------------------------------------*\
     $VARIABLES
 \*------------------------------------*/
@@ -1102,48 +1142,64 @@ td {
 /*------------------------------------*\
     $HOLLYWOOD
 \*------------------------------------*/
-a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
-  font-family: "Gafata", sans-serif; }
+/*
+$primary-color: #ce0d0e;
+$light-gray: #DBDBDB;
+$medium-gray: #969696;
 
+.clearfix{
+    @mixin pie-clearfix {
+  	&:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+  	}
+  	@include has-layout;
+	}
+}
+a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button{
+	font-family: "Gafata", sans-serif;
+}
 button, .button {
-  border-style: solid;
-  border-width: 0px;
-  cursor: pointer;
-  font-family: "Gafata", sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
-  background-color: #ce0d0e;
-  border-color: #a50a0b;
-  color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
-  display: inline-block; }
-
+	border-style: solid;
+	border-width: 0px;
+	cursor: pointer;
+	font-family: "Gafata", sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.0625rem;
+	padding-left: 2rem;
+	font-size: 1rem;
+	background-color: #ce0d0e;
+	border-color: #a50a0b;
+	color: white;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.0625rem;
+	padding-left: 2rem;
+	font-size: 1rem;
+	display: inline-block;
+}
 .panel {
-  font-family: "Gafata", sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #d8d8d8;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  background: #f2f2f2; }
-
+	font-family: $sans-serif;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $light-gray;
+	margin-bottom: 1.25rem;
+	padding: 1.25rem;
+	background-color: $lightest-grey;
+}
+*/
 .header-hollywood {
   background: #000; }
 
