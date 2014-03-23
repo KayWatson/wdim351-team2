@@ -10,26 +10,22 @@
 	{{# slider }}
 		{{> molecules-hollywood-slider }}
 	{{/ slider}}
-
 		<br>
-
-		<div class="g g-3up">
+		<div class="g1 g-3up">
 			<div class="gi">
 				<section class="section latest-posts">
-					<h2 class="section-title">Upcoming Classes:</h2><hr>
-					<br>
+					<h2 class="section-title">Upcoming Classes:</h2>
 					<ul class="post-list">
-
+						<hr>
 						{{# latest-posts}}
-							<li>{{> molecules-upcoming-class-block }}</li>
+							{{> molecules-upcoming-class-block }}
 						{{/ latest-posts}}
 					</ul>
-					<a href="#" class="text-btn">View more classes</a>
 				</section>
 			</div>
 			<div class="gi">
 				{{# home-center}}
-				{{> molecules-block-middle-panel}}
+					{{> molecules-block-middle-panel}}
 				{{/ home-center}}
 			</div>
 

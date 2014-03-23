@@ -24,3 +24,20 @@ button, .button {
 		color: $white;
 	}
 }
+
+/* Links */ 
+a {
+	color: $gray-dark;
+	text-decoration: none;
+	outline: 0;
+	&:hover, &:focus {
+		color: $gray;
+	}
+}
+
+#footer-nav a{
+	color:$black;
+	&:hover{
+		color:$primary-color;
+	}
+}

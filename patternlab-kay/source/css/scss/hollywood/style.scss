@@ -85,16 +85,6 @@ button, .button {
 	width: auto;
 	text-align: center;
 }
-*/
-.copyright{
-	width: 50%;
-	float: left;
-	font-family: inherit;
-	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.6;
-	margin-bottom: 1.25rem;
-}
 
 .footer {
 	background: transparent;
@@ -110,11 +100,21 @@ button, .button {
 color: #222;
 }
 
-
+.copyright{
+	width: 50%;
+	float: left;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin-bottom: 1.25rem;
+}
+*/
 
 //end base styles//
 
 //module styles//
+/*
 .module__sidebar{
 	padding: 80px 20px 0 20px;
 }
@@ -125,7 +125,7 @@ color: #222;
 	color: $medium-gray;
 	font-style: italic;
 }
-
+*/
 .module__container{
 	//border: 1px solid red;
 	padding-top: 50px;
@@ -156,7 +156,7 @@ color: #222;
 	margin: 0;
 
 	hr{
-		margin: 3px;
+		margin: 0;
 	}
 
 	li{

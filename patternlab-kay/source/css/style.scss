@@ -54,22 +54,10 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  */
 
 
-/*------------------------------------*\
-    $CUSTOM ELEMENTS
-\*------------------------------------*/
-@import "custom/generic/variables";
-@import "custom/generic/mixins";
 
-@import "custom/base/forms";
-@import "custom/base/global-classes";
-@import "custom/base/headings";
-@import "custom/base/links";
-@import "custom/base/text";
-@import "custom/molecules/blocks";
-
+@import "scss/generic/reset";
 @import "scss/generic/variables";
 @import "scss/generic/mixins";
-@import "scss/generic/reset";
 
 /*------------------------------------*\
     $GLOBAL ELEMENTS
@@ -132,6 +120,22 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 \*------------------------------------*/
 
 @import "scss/hollywood/style";
+
+/*------------------------------------*\
+    $CUSTOM ELEMENTS
+\*------------------------------------*/
+@import "custom/generic/variables";
+@import "custom/generic/mixins";
+@import "custom/base/forms";
+@import "custom/base/global-classes";
+@import "custom/base/headings";
+@import "custom/base/links";
+@import "custom/base/text";
+@import "custom/objects/header";
+@import "custom/objects/footer";
+@import "custom/objects/sidebar";
+@import "custom/objects/touts";
+@import "custom/objects/layout";
 
 
 
