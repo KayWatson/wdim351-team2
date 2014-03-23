@@ -84,3 +84,19 @@ input[type="search"]::-webkit-search-decoration {
 .is-valid {
 	border-color: $valid;
 }
+.search-field{
+    max-height: 20px;
+}
+.inline-form .search-submit{
+    padding: 2px;
+    text-align: left;
+    width: 50px;
+    background-color: $primary-color;
+    color: $white;
+    &:hover{
+        background-color: $hover-red;
+    }
+}
+button .search-submit{
+    max-height: 25px;
+}
