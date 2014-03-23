@@ -1347,7 +1347,7 @@ a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, b
   #nav li a:hover {
     color: #c13a47; }
 
-.upcoming-class p {
+.upcoming-class p.information {
   color: #c13a47; }
 
 .module-header6 {
