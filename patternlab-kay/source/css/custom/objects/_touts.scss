@@ -26,3 +26,29 @@ ul.post-list{
 		padding: 5px;
 	}
 }
+
+.module__container{
+	//border: 1px solid red;
+	padding-top: 50px;
+	position: relative;
+	width: 100%;
+}
+
+//Personal Trainer Specific//
+
+.trainer__content{
+    padding: 80px 10px 0 10px;
+}
+
+.trainer__profile{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.sidebar__header{
+    color: $primary-color;
+}
+
+.trainer__content{
+    padding: 80px 10px 0 10px;
+}
