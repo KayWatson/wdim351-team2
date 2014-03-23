@@ -73,6 +73,10 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
+.button {
+    width: auto;
+}
+
 /* Validation */
 .has-error {
 	border-color: $hover-red;
