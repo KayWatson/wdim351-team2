@@ -1246,12 +1246,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
   input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
-    -webkit-box-shadow: 0 0 5px #999999;
-    -moz-box-shadow: 0 0 5px #999999;
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999;
-    background: #fafafa;
-    border-color: #999999;
+    -webkit-box-shadow: 0 0 5px #969696;
+    -moz-box-shadow: 0 0 5px #969696;
+    box-shadow: 0 0 5px #969696;
+    border-color: #969696;
+    background: #969696;
+    border-color: #969696;
     outline: none; }
 
 input[type="checkbox"],
@@ -1272,7 +1272,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Validation */
 .has-error {
-  border-color: #ad2f3b; }
+  border-color: #9e2934; }
 
 .is-valid {
   border-color: #099c14; }
@@ -1287,7 +1287,7 @@ input[type="search"]::-webkit-search-decoration {
   background-color: #c13a47;
   color: white; }
   .inline-form .search-submit:hover {
-    background-color: #ad2f3b; }
+    background-color: #9e2934; }
 
 button .search-submit {
   max-height: 25px; }
@@ -1324,7 +1324,7 @@ button, .button {
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out; }
   button:hover, .button:hover {
-    background-color: #ad2f3b;
+    background-color: #9e2934;
     color: white; }
 
 a {
