@@ -5,7 +5,15 @@
 		"img": {
 			"landscape-16x9": {
 				"src": "../../images/slider-one.jpeg",
-				"alt": "Mountains"	
+				"alt": "Weight "	
+			}
+		}
+	},
+	"home-center" : {
+		"img": {
+			"square": {
+				"src": "../../images/home-center.jpg",
+				"alt": "Kickboxing"	
 			}
 		}
 	},
@@ -48,7 +56,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-river.jpg",
+					"src": "../../images/home-center.jpg",
 					"alt": "Post Thumbnail"	
 				}
 			},
@@ -63,7 +71,7 @@
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-ivy.jpg",
-					"alt": "Ivy"	
+					"alt": "Kickboxing"	
 				}
 			},
 			"headline" : {
