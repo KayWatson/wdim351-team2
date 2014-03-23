@@ -1272,7 +1272,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Validation */
 .has-error {
-  border-color: #9c090a; }
+  border-color: #ad2f3b; }
 
 .is-valid {
   border-color: #099c14; }
@@ -1300,8 +1300,8 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #ce0d0e;
-  border-color: #ce0d0e;
+  background-color: #c13a47;
+  border-color: #c13a47;
   color: white;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -1309,7 +1309,7 @@ button, .button {
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out; }
   button:hover, .button:hover {
-    background-color: #9c090a;
+    background-color: #ad2f3b;
     color: white; }
 
 a {
@@ -1322,7 +1322,7 @@ a {
 #footer-nav a {
   color: black; }
   #footer-nav a:hover {
-    color: #ce0d0e; }
+    color: #c13a47; }
 
 a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
   font-family: "Gafata", sans-serif; }
@@ -1330,10 +1330,10 @@ a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, b
 #nav li a {
   color: #dbdbdb; }
   #nav li a:hover {
-    color: #ce0d0e; }
+    color: #c13a47; }
 
 .upcoming-class p {
-  color: #ce0d0e; }
+  color: #c13a47; }
 
 .module-header6 {
   font-size: .8em;
@@ -1345,12 +1345,28 @@ a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, b
   padding-bottom: 2px;
   margin-bottom: 0; }
 
+.logo {
+  max-width: 12rem; }
+
+.media__type-container {
+  margin: 20px 0 40px 0; }
+
+.media__type {
+  font-size: 1em;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 65px;
+  padding: 5px 10px;
+  margin-right: 10px; }
+  .media__type:hover, .media__type:active {
+    background-color: #dbdbdb; }
+
 .header-hollywood {
   background-color: black;
   margin-bottom: 30px; }
 
 .sidebar__header {
-  color: #ce0d0e; }
+  color: #c13a47; }
 
 .module-footer {
   background: transparent;
@@ -1407,7 +1423,7 @@ ul.post-list {
   padding-top: 20px; }
 
 .sidebar__header {
-  color: #ce0d0e; }
+  color: #c13a47; }
 
 .trainer__content {
   padding: 80px 10px 0 10px; }
