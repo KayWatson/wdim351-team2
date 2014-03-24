@@ -54,6 +54,31 @@ var comments = {
 		"el": ".footer-nav",
 		"title" : "Bottom Naviation",
 		"comment": "<p>Same basic styles as header navigation.</p>"
-	}
+	},
+	{
+		"el": "label",
+		"title" : "Form Label",
+		"comment": "<p>Label for each form input will rest above the input field.</p>"
+	},
+	{
+		"el": "input",
+		"title" : "Form Input",
+		"comment": "<p>Each input field will have placeholder text to help the user understand what to type into each field.</p>"
+	},
+	{
+		"el": "figure",
+		"title" : "Location Map",
+		"comment": "<p>A google map image displaying the address. This is a png inside a figure that is 283x283 pixels. It is the first section of thre columns.</p>"
+	},
+	{
+		"el": ".subheading--location",
+		"title" : "Contact Section Header",
+		"comment": "<p>A Two word title that represents the type of contact information being provided like 'Site location' or 'Site Hours'</p>"
+	},
+	{
+		"el": ".text",
+		"title" : "Contact Section Body of Text",
+		"comment": "<p>An unordered list that corresponds to the Contact Section Header. A 269 Maximum character preference.</p>"
+	},
 ]
 };
