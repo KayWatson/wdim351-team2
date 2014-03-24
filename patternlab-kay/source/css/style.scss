@@ -53,28 +53,12 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * TOC To Be Continued
  */
 
-
-/*------------------------------------*\
-    $CUSTOM ELEMENTS
-\*------------------------------------*/
-@import "custom/generic/variables";
-@import "custom/generic/mixins";
-
-@import "custom/base/forms";
-@import "custom/base/global-classes";
-@import "custom/base/headings";
-@import "custom/base/links";
-@import "custom/base/text";
-
-@import "scss/generic/variables";
-@import "scss/generic/mixins";
-@import "scss/generic/reset";
-
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
-@import "scss/base/global-classes";
-@import "scss/base/main";
+@import "scss/generic/variables";
+@import "scss/generic/mixins";
+
 @import "scss/base/headings";
 @import "scss/base/text";
 @import "scss/base/lists";
@@ -82,10 +66,8 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/base/forms";
 @import "scss/base/tables";
 @import "scss/base/animation";
-
-
-
-
+@import "scss/base/global-classes";
+@import "scss/base/main";
 
 /*------------------------------------*\
     $LAYOUT
@@ -124,16 +106,35 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/objects/comments";
 
 
+@import "scss/generic/reset";
+
+/*------------------------------------*\
+    $CUSTOM ELEMENTS
+\*------------------------------------*/
+@import "custom/generic/variables";
+@import "custom/generic/mixins";
+
+@import "custom/base/forms";
+@import "custom/base/global-classes";
+@import "custom/base/headings";
+@import "custom/base/links";
+@import "custom/base/text";
+@import "custom/base/media";
+
+@import "custom/objects/footer";
+@import "custom/objects/header";
+@import "custom/objects/layout";
+@import "custom/objects/lists";
+@import "custom/objects/sidebar";
+@import "custom/objects/touts";
+
 
 /*------------------------------------*\
     $HOLLYWOOD
-\*------------------------------------*/
 
 @import "scss/hollywood/style";
 
-
-
-
+\*------------------------------------*/
 
 
 
