@@ -52,6 +52,191 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * TOC To Be Continued
  */
 /*------------------------------------*\
+    $CUSTOM ELEMENTS
+\*------------------------------------*/
+/*
+ * This is a fairly big mixin.
+ * The reason for this is that at the time of writing (09/01/2013),
+ * Sass does not include functions for substring or find/replace in string.
+ * Chris Eppstein sent a Pull Request to Sass with the str-extract (substring) function back in June,
+ * but it still has not been merged, due to lack of minor comments.
+ * That was five months ago.
+ */
+form ol, form ul {
+  list-style: none;
+  margin-left: 0; }
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+label {
+  font-size: 0.875rem;
+  color: #4d4d4d;
+  display: block;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0 1px 0; }
+
+/* We use this to get basic styling on all basic form elements */
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+  -webkit-appearance: none;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid #585858;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+  input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+    -webkit-box-shadow: 0 0 5px #969696;
+    -moz-box-shadow: 0 0 5px #969696;
+    box-shadow: 0 0 5px #969696;
+    border-color: #969696;
+    background: #969696;
+    border-color: #969696;
+    outline: none; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.3em; }
+
+input[type="search"] {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+.button {
+  width: auto; }
+
+/* Validation */
+.has-error {
+  border-color: #9c090a; }
+
+.is-valid {
+  border-color: #099c14; }
+
+.search-field {
+  max-height: 20px; }
+
+.inline-form .search-submit {
+  padding: 2px;
+  text-align: left;
+  width: 50px;
+  background-color: #ce0d0e;
+  color: white; }
+  .inline-form .search-submit:hover {
+    background-color: #9c090a; }
+
+button .search-submit {
+  max-height: 25px; }
+
+hr {
+  margin: 0; }
+
+[role=main] {
+  padding-bottom: 0; }
+
+.subheading--location {
+  padding-left: 3px;
+  font-size: 1.5em; }
+
+button, .button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Gafata", sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #ce0d0e;
+  border-color: #ce0d0e;
+  color: white;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
+  button:hover, .button:hover {
+    background-color: #9c090a;
+    color: white; }
+
+a {
+  color: #646262;
+  text-decoration: none;
+  outline: 0; }
+  a:hover, a:focus {
+    color: #969696; }
+
+#footer-nav a {
+  color: black; }
+  #footer-nav a:hover {
+    color: #ce0d0e; }
+
+a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
+  font-family: "Gafata", sans-serif; }
+
+#nav li a {
+  color: #dbdbdb; }
+  #nav li a:hover {
+    color: #ce0d0e; }
+
+.upcoming-class p.information {
+  color: #ce0d0e; }
+
+.module-header6 {
+  font-size: .8em;
+  margin: -10px 0;
+  color: #969696;
+  font-style: italic; }
+
+.post-list li {
+  padding-bottom: 2px;
+  margin-bottom: 0; }
+
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+/* CSS Transition
+	Usage: @include transition(width,0.3s,ease-out);
+ */
+/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
+	Usage: @include font-size(1, large);
+*/
+/*------------------------------------*\
     $RESET
 \*------------------------------------*/
 /* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -67,18 +252,6 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 header, footer, nav, section, article, hgroup, figure {
   display: block; }
 
-/*------------------------------------*\
-    $VARIABLES
-\*------------------------------------*/
-/*------------------------------------*\
-    $MIXINS
-\*------------------------------------*/
-/* CSS Transition
-	Usage: @include transition(width,0.3s,ease-out);
- */
-/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
-	Usage: @include font-size(1, large);
-*/
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
@@ -679,7 +852,6 @@ td {
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
   font-family: 'icons';
@@ -1191,281 +1363,84 @@ color: #222;
 	margin-bottom: 1.25rem;
 }
 */
-/*------------------------------------*\
-    $CUSTOM ELEMENTS
-\*------------------------------------*/
 /*
- * This is a fairly big mixin.
- * The reason for this is that at the time of writing (09/01/2013),
- * Sass does not include functions for substring or find/replace in string.
- * Chris Eppstein sent a Pull Request to Sass with the str-extract (substring) function back in June,
- * but it still has not been merged, due to lack of minor comments.
- * That was five months ago.
- */
-form ol, form ul {
-  list-style: none;
-  margin-left: 0; }
+.module__sidebar{
+	padding: 80px 20px 0 20px;
+}
 
-fieldset {
-  border: 0;
-  padding: 0;
-  margin: 0; }
+.module-header6{
+	font-size: .8em;
+	margin: -10px 0;
+	color: $medium-gray;
+	font-style: italic;
+}
 
-label {
-  font-size: 0.875rem;
-  color: #4d4d4d;
-  display: block;
-  font-weight: normal;
-  line-height: 1.5;
-  margin-bottom: 0; }
+.module__container{
+	//border: 1px solid red;
+	padding-top: 50px;
+	position: relative;
+	width: 100%;
+}
 
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0 1px 0; }
+.module__sidebar{
+	.article__image{
+		padding: 30px 0 5px 0;
+	}
+}
+//end module syles//
 
-/* We use this to get basic styling on all basic form elements */
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
-  -webkit-appearance: none;
-  background-color: white;
-  font-family: inherit;
-  border: 1px solid #333333;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
-  display: block;
-  font-size: 0.875rem;
-  margin: 0 0 1rem 0;
-  padding: 0.5rem;
-  height: 2.3125rem;
-  width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
-    -webkit-box-shadow: 0 0 5px #969696;
-    -moz-box-shadow: 0 0 5px #969696;
-    box-shadow: 0 0 5px #969696;
-    border-color: #969696;
-    background: #969696;
-    border-color: #969696;
-    outline: none; }
+//blog & gallery specific//
+.blog__content{
+	padding: 0 70px 0 20px;
+}
 
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  margin-right: 0.3em; }
+.article__content{
+	.article__image{
+		padding: 30px 0;
+	}
+}
+.side-nav{
+	padding: 0;
+	margin: 0;
+	li{
+		padding-left: 10px;
+		list-style-type: circle;
+	}
+}
 
-input[type="search"] {
-  -webkit-appearance: none;
-  border-radius: 0; }
+.media__type-container{
+	margin: 20px 0 40px 0;
+}
+.media__type{
+	font-size: 1em;
+	border: 1px solid $light-gray;
+	border-radius: 3px;
+	width: 65px;
+	padding: 5px 10px;
+	margin-right: 10px;
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+	&:hover, &:active{
+		background-color: $light-gray;
+	}
+}
+//End blog & gallery specific//
 
-.button {
-  width: auto; }
+//Personal Training specific//
+.sidebar__header{
+    color: $primary-color;
+}
 
-/* Validation */
-.has-error {
-  border-color: #9e2934; }
+.trainer__content{
+    padding: 80px 10px 0 10px;
+}
 
-.is-valid {
-  border-color: #099c14; }
+.trainer__profile{
+    margin-top: 20px;
+    padding-top: 20px;
+}
 
-.search-field {
-  max-height: 20px; }
-
-.inline-form .search-submit {
-  padding: 2px;
-  text-align: left;
-  width: 50px;
-  background-color: #c13a47;
-  color: white; }
-  .inline-form .search-submit:hover {
-    background-color: #9e2934; }
-
-button .search-submit {
-  max-height: 25px; }
-
-hr {
-  margin: 0; }
-
-[role=main] {
-  padding-bottom: 0; }
-
-button, .button {
-  border-style: solid;
-  border-width: 0px;
-  cursor: pointer;
-  font-family: "Gafata", sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
-  background-color: #c13a47;
-  border-color: #c13a47;
-  color: white;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  transition: all 300ms ease-out; }
-  button:hover, .button:hover {
-    background-color: #9e2934;
-    color: white; }
-
-a {
-  color: #333333;
-  text-decoration: none;
-  outline: 0; }
-  a:hover, a:focus {
-    color: gray; }
-
-#footer-nav a {
-  color: black; }
-  #footer-nav a:hover {
-    color: #c13a47; }
-
-a, p, span, h1, h2, h3, h4, h5, h6, div, small, header, hgroup, input, select, button {
-  font-family: "Gafata", sans-serif; }
-
-#nav li a {
-  color: #dbdbdb; }
-  #nav li a:hover {
-    color: #c13a47; }
-
-.upcoming-class p.information {
-  color: #c13a47; }
-
-.module-header6 {
-  font-size: .8em;
-  margin: -10px 0;
-  color: #969696;
-  font-style: italic; }
-
-.post-list li {
-  padding-bottom: 2px;
-  margin-bottom: 0; }
-
-.logo {
-  max-width: 12rem;
-  padding-top: 10px; }
-
-.media__type-container {
-  margin: 20px 0 40px 0; }
-
-.media__type {
-  font-size: 1em;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  width: 65px;
-  padding: 5px 10px;
-  margin-right: 10px; }
-  .media__type:hover, .media__type:active {
-    background-color: #dbdbdb; }
-
-.header-hollywood {
-  background-color: black; }
-
-.sidebar__header {
-  color: #c13a47; }
-
-header .nav {
-  max-height: 60px;
-  margin-top: -55px;
-  float: right;
-  clear: both; }
-
-.module-footer {
-  background: transparent;
-  color: black; }
-
-.copyright {
-  width: 50%;
-  float: left !important;
-  font-family: inherit;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.25rem; }
-
-.module__sidebar {
-  padding: 80px 20px 0 20px; }
-  .module__sidebar .article__image {
-    padding: 30px 0 5px 0; }
-
-.panel {
-  font-family: "Gafata", sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #dbdbdb;
-  margin: 30px 0;
-  padding: 1.25rem;
-  background-color: #f2f2f2; }
-
-.upcoming-class {
-  width: 100%;
-  text-align: center; }
-
-.list-a-class hr {
-  margin: 0; }
-
-.middle-panel {
-  padding: 0 30px; }
-
-ul.post-list {
-  padding-top: 20px; }
-  ul.post-list li {
-    padding: 5px; }
-
-.module__container {
-  padding-top: 50px;
-  position: relative;
-  width: 100%; }
-
-.trainer__content {
-  padding: 80px 10px 0 10px; }
-
-.trainer__profile {
-  margin-top: 20px;
-  padding-top: 20px; }
-
-.sidebar__header {
-  color: #c13a47; }
-
-.trainer__content {
-  padding: 80px 10px 0 10px; }
-
-/*------------------------------------*\
-    $GRIDS
-\*------------------------------------*/
-/* Grid Container */
-.g1 {
-  overflow: hidden;
-  margin: 30px 0; }
-
-.blog__content {
-  padding: 0 70px 0 20px; }
-
-.article__content .article__image {
-  padding: 30px 0; }
-
-.side-nav {
-  padding: 0;
-  margin: 0; }
-  .side-nav li {
-    padding-left: 10px;
-    list-style-type: circle; }
+.content--trainer-reasons{
+    div{
+        padding: 20px 20px 0 20px;
+    }
+}*/
