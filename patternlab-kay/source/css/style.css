@@ -663,7 +663,6 @@ body {
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
   font-family: 'icons';
@@ -1324,6 +1323,34 @@ header .nav {
   .side-nav li {
     padding-left: 10px;
     list-style-type: circle; }
+
+.section {
+  margin-top: 10px; }
+
+.find-us {
+  width: 100%;
+  height: auto;
+  padding: 20px 60px;
+  margin: 10px auto;
+  background-color: #646262;
+  color: white;
+  clear: both;
+  overflow: auto; }
+
+.find-us--section {
+  float: left;
+  width: 32%;
+  margin: 5px;
+  padding: 5px; }
+
+.find-us__panel {
+  font-family: "Gafata", sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dbdbdb;
+  margin: 0;
+  padding: 1.25rem;
+  background-color: #f2f2f2; }
 
 .module__sidebar {
   padding: 80px 20px 0 20px; }
