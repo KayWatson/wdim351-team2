@@ -29,6 +29,31 @@ var comments = {
 		"el": ".block-hero",
 		"title" : "Hero",
 		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+	},
+	{
+		"el": ".latest-posts",
+		"title" : "Upcoming Events",
+		"comment": "<p>The latest post is a list of five of the current or upcoming happenings and events.</p>"
+	},
+	{
+		"el": ".middle-panel",
+		"title" : "Featured Profile image",
+		"comment": "<p>A jpeg image of a featured member or anyother current point of interest. This profile image is required to fit 300x465 pixel containment so that it may fit nicely with the surrounding content.</p>"
+	},
+	{
+		"el": ".why-join",
+		"title" : "Why Join",
+		"comment": "<p>A header title of 'Why Join', and s paragraph of roughly 176 characters will live here. This will be a charasmatic pitch to the viewer followed by the call to action button labeled 'Join Now'.</p>"
+	},
+	{
+		"el": ".copyright",
+		"title" : "Copyright Information",
+		"comment": "<p>Basic Copyright information like year and company name.</p>"
+	},
+	{
+		"el": ".footer-nav",
+		"title" : "Bottom Naviation",
+		"comment": "<p>Same basic styles as header navigation.</p>"
 	}
 ]
 };

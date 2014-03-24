@@ -32,8 +32,8 @@ var comments = {
 	},
 	{
 		"el": ".latest-posts",
-		"title" : "Latest Posts",
-		"comment": "<p>This is where latest posts go.</p>"
+		"title" : "Upcoming Classes",
+		"comment": "<p>This is where the latest upcoming classes and evets go.</p>"
 	}
 ]
 };
