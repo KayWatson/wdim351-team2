@@ -1,0 +1,29 @@
+.section{
+    margin-top: 10px;
+}
+
+.find-us{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: $dark-gray;
+    color: $white;
+    clear: both;
+}
+
+.find-us--map{
+    float: left;
+    
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.find-us--location{
+    float: left;
+}
+
+.find-us--hours{
+    
+}
