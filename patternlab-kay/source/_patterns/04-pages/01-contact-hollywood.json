@@ -1,0 +1,15 @@
+{
+	"title" : "Home Page",
+	"bodyClass": "home",
+    "contact" : {
+        
+    },
+	"location" : {
+		"img": {
+			"square": {
+				"src": "../../images/map-square.png",
+				"alt": "Location of gym "	
+			}
+		}
+	}
+}
