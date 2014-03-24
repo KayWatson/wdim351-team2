@@ -1159,6 +1159,9 @@ input[type="search"]::-webkit-search-decoration {
 .button {
   width: auto; }
 
+.field-container {
+  padding: 0 5px 2px 5px; }
+
 /* Validation */
 .has-error {
   border-color: #9c090a; }
@@ -1326,6 +1329,23 @@ header .nav {
 
 .section {
   margin-top: 10px; }
+
+.section--contact-form {
+  width: 67%;
+  margin: 10px auto;
+  padding: 10px;
+  clear: both;
+  overflow: auto; }
+
+.comment-form__left {
+  width: 45%;
+  padding: 10px;
+  float: left; }
+
+.commnet-form__right {
+  width: 45%;
+  padding: 10px;
+  float: left; }
 
 .find-us {
   width: 100%;

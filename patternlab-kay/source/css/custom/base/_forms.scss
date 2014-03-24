@@ -77,6 +77,10 @@ input[type="search"]::-webkit-search-decoration {
     width: auto;
 }
 
+.field-container {
+    padding: 0 5px 2px 5px;
+}
+
 /* Validation */
 .has-error {
 	border-color: $hover-red;
